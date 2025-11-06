@@ -31,7 +31,7 @@ function mostrarProductos(){
         card.classList.add('productos-card')
         //construir la tarjeta
         card.innerHTML =`
-        <img src= ${productos.imagen}"alt="${producto.nombre}"width="150">
+        <img src= ${productos.imagen}>
         <h2>${productos.nombre}</h2>
         <p>${productos.descripcion}</p>
         <button data-id="${productos.id}">Agregar al carrito</button>`
@@ -42,4 +42,5 @@ function mostrarProductos(){
 //llamar a la funcion
 
 mostrarProductos();
+
 
